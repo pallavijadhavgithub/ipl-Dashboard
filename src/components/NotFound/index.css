@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.notFound {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .notFound {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.page-heading {
+  font-family: 'Bree serif';
+  font-weight: bold;
+  font-size: 35px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .page-heading {
+    font-size: 50px;
+  }
+}

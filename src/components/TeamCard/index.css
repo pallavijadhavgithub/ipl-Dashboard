@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 200px;
+  height: 110px;
+  margin: 15px;
+}
+.team-image {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+  margin-right: 6px;
+}
+.team-name {
+  font-family: 'bree serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+}
